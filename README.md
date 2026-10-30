@@ -22,11 +22,6 @@ Automated linguistic features (vocabulary diversity, rhyme density, repetition, 
 Baseline model predicting log(views) with artist-grouped cross-validation
 
 *data_and_features_v2.ipynb* covers:
-- Loading the 5 Million Song Lyrics dataset and filtering to English rap, pop, and country songs
-- Cleaning the lyrics (section labels like [Chorus], duplicates, very short and very long texts)
-- Exploring genres, lyric lengths, and views
-- Baseline theme labeling (love/relationships vs. struggle/identity) using keyword lists
-- Building a balanced sample for manual annotation of wordplay and metaphor
-- Automated linguistic features (vocabulary diversity, repetition, sentiment)
+Loading the 5 Million Song Lyrics dataset and filtering to English rap, pop, and country songs. Cleaning the lyrics (section labels like [Chorus], duplicates, very short and very long texts). Exploring genres, lyric lengths, and views. Baseline theme labeling (love/relationships vs. struggle/identity) using keyword lists. Building a balanced sample for manual annotation of wordplay and metaphor. Automated linguistic features (vocabulary diversity, repetition, sentiment)
 
 Lyrics are not included in this repo. `annotation_songs.csv` lists the sampled songs by ID, title, artist, genre, and theme.
